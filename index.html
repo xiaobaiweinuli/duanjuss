@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search and Share</title>
+    <title>短剧搜索</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="search-container">
-        <input type="text" id="search-input" placeholder="Search for dramas...">
-        <button id="search-btn">Search</button>
+    <div class="search">
+        <input type="search" class="search-box" id="search-input" placeholder="输入短剧关键词">
+        <span class="search-button">
+            <span class="search-icon"></span>
+        </span>
     </div>
-    <div id="results-container"></div>
-    <script src="main.js"></script>
+
+    <div id="results-container">
+        <!-- 搜索结果将在这里显示 -->
+    </div>
+
+    <div id="pagination">
+        <button id="prev-page" disabled>上一页</button>
+        <span id="page-info"></span>
+        <button id="next-page">下一页</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
