@@ -1,0 +1,25 @@
+/* Add your CSS styles here */
+#search-container {
+    margin: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#search-btn {
+    padding: 10px;
+}
+
+.result-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.share-link {
+    display: none;
+    margin-top: 10px;
+}
